@@ -1,0 +1,23 @@
+{
+    "name": "lackey-framework",
+    "version": "0.0.1",
+    "description": "Keeps all Lackey modules in a single dependency",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Enigma Marketing <admin@enigma-marketing.co.uk> (http://www.enigma-marketing.co.uk)",
+    "licenses": [{
+        "type": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/getlackey/framework.git"
+    },
+    "dependencies": {
+        "lackey-inline-edit": "0.0.x",
+        "lackey-make-title": "0.0.x",
+        "lackey-options-parser": "0.0.x"
+    }
+}
