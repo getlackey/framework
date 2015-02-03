@@ -19,5 +19,6 @@
 module.exports = {
     inlineEdit: require('lackey-inline-edit'),
     makeTitle: require('lackey-make-title'),
-    optionsParser: require('lackey-options-parser')
+    optionsParser: require('lackey-options-parser'),
+    JsonXlsxConverter: require('lackey-json-xlsx')
 };

@@ -9,10 +9,12 @@ This module is the [Lackey framework](https://www.npmjs.com/package/lackey-frame
 - [Inline Edit](https://www.npmjs.com/package/lackey-inline-edit)
 - [Make Title](https://www.npmjs.com/package/lackey-make-title)
 - [Options Parser](https://www.npmjs.com/package/lackey-options-parser)
+- [JSON XLSX Converter](https://www.npmjs.com/package/lackey-json-xlsx)
 
 ## Usage
 
     var lackey = require('lackey-framework'),
         inlineEdit = lackey.inlineEdit,
-        makeTitle: lackey.makeTitle,
-        optionsParser: lackey.optionsParser;
+        makeTitle = lackey.makeTitle,
+        optionsParser = lackey.optionsParser,
+        JsonXlsxConverter = lackey.JsonXlsxConverter;

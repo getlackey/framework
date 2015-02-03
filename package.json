@@ -18,6 +18,7 @@
     "dependencies": {
         "lackey-inline-edit": "0.0.x",
         "lackey-make-title": "0.0.x",
-        "lackey-options-parser": "0.0.x"
+        "lackey-options-parser": "0.0.x",
+        "lackey-json-xlsx": "0.0.x"
     }
 }
