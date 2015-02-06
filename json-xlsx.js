@@ -15,8 +15,4 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */
-
-module.exports = function (name) {
-    var module = require('./' + name);
-    return module;
-};
+module.exports = require('lackey-json-xlsx');

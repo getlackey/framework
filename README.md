@@ -15,8 +15,8 @@ This module is the [Lackey framework](https://www.npmjs.com/package/lackey-frame
 ## Usage
 
     var lackey = require('lackey-framework'),
-        inlineEdit = lackey.inlineEdit,
-        makeTitle = lackey.makeTitle,
-        optionsParser = lackey.optionsParser,
-        JsonXlsxConverter = lackey.JsonXlsxConverter,
-        dustjsHelpers = lackey.dustjsHelpers;
+        inlineEdit = lackey('inline-edit'), // or require('lackey-framework/inline-edit')
+        makeTitle = lackey('make-title'), // or require('lackey-framework/make-title')
+        optionsParser = lackey('options-parser'), // or require('lackey-framework/options-parser')
+        JsonXlsxConverter = lackey('json-xlsx'), // or require('lackey-framework/json-xlsx')
+        dustjsHelpers = lackey('dustjs-helpers'); // or require('lackey-framework/dustjs-helpers')
