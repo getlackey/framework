@@ -10,6 +10,7 @@ This module is the [Lackey framework](https://www.npmjs.com/package/lackey-frame
 - [Make Title](https://www.npmjs.com/package/lackey-make-title)
 - [Options Parser](https://www.npmjs.com/package/lackey-options-parser)
 - [JSON XLSX Converter](https://www.npmjs.com/package/lackey-json-xlsx)
+- [Dustjs Helpers](https://www.npmjs.com/package/lackey-dustjs-helpers)
 
 ## Usage
 
@@ -17,4 +18,5 @@ This module is the [Lackey framework](https://www.npmjs.com/package/lackey-frame
         inlineEdit = lackey.inlineEdit,
         makeTitle = lackey.makeTitle,
         optionsParser = lackey.optionsParser,
-        JsonXlsxConverter = lackey.JsonXlsxConverter;
+        JsonXlsxConverter = lackey.JsonXlsxConverter,
+        dustjsHelpers = lackey.dustjsHelpers;
