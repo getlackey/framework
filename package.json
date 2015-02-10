@@ -1,6 +1,6 @@
 {
     "name": "lackey-framework",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Keeps all Lackey modules in a single dependency",
     "main": "lib/index.js",
     "scripts": {
