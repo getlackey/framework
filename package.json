@@ -20,11 +20,11 @@
         "url": "https://github.com/getlackey/framework.git"
     },
     "dependencies": {
-        "lackey-inline-edit": "0.0.x",
-        "lackey-make-title": "0.0.x",
-        "lackey-options-parser": "0.0.x",
-        "lackey-json-xlsx": "0.0.x",
-        "lackey-dustjs-helpers": "0.0.x"
+        "lackey-inline-edit": "0.x.x",
+        "lackey-make-title": "0.x.x",
+        "lackey-options-parser": "0.x.x",
+        "lackey-json-xlsx": "0.x.x",
+        "lackey-dustjs-helpers": "0.x.x"
     },
     "readme": "# Lackey options parser\n\nKeeps all lackey modules in a single dependency\n\nThis module is the [Lackey framework](https://www.npmjs.com/package/lackey-framework) that is used to build the [Lackey CMS](http://lackey.io) amongst other projects.\n\n## Documentation\n\n- [Inline Edit](https://www.npmjs.com/package/lackey-inline-edit)\n- [Make Title](https://www.npmjs.com/package/lackey-make-title)\n- [Options Parser](https://www.npmjs.com/package/lackey-options-parser)\n- [JSON XLSX Converter](https://www.npmjs.com/package/lackey-json-xlsx)\n- [Dustjs Helpers](https://www.npmjs.com/package/lackey-dustjs-helpers)\n\n## Usage\n\n    var lackey = require('lackey-framework'),\n        inlineEdit = lackey.inlineEdit,\n        makeTitle = lackey.makeTitle,\n        optionsParser = lackey.optionsParser,\n        JsonXlsxConverter = lackey.JsonXlsxConverter,\n        dustjsHelpers = lackey.dustjsHelpers;\n",
     "readmeFilename": "README.md",
